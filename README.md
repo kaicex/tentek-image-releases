@@ -12,11 +12,13 @@
 <p align="center">
   <a href="https://tentek.pro/claude-image"><b>Website</b></a> ·
   <a href="https://github.com/kaicex/tentek-image-releases/releases/latest/download/tentek-image.mcpb"><b>Download for Claude Desktop</b></a> ·
+  <a href="https://www.npmjs.com/package/tentek-image">npm</a> ·
   <a href="https://t.me/kaicex">Support</a>
 </p>
 
 <p align="center">
   <a href="https://github.com/kaicex/tentek-image-releases/releases/latest"><img src="https://img.shields.io/github/v/release/kaicex/tentek-image-releases?label=version&color=3ad04a" alt="Latest version"></a>
+  <a href="https://www.npmjs.com/package/tentek-image"><img src="https://img.shields.io/npm/v/tentek-image?label=npm&color=2fae3d" alt="npm"></a>
   <img src="https://img.shields.io/badge/MCP-Claude%20Desktop%20%C2%B7%20Claude%20Code-121216" alt="Claude Desktop and Claude Code">
 </p>
 
@@ -77,7 +79,13 @@ your ChatGPT account → PNG back to Claude
 
 - **Claude Desktop** — download [tentek-image.mcpb](https://github.com/kaicex/tentek-image-releases/releases/latest/download/tentek-image.mcpb)
   and double-click it. Claude Desktop installs it for you.
-- **Claude Code** — an npm package for `npx` is coming soon.
+- **Claude Code** — run:
+
+  ```bash
+  claude mcp add --scope user tentek-image -- npx -y tentek-image
+  ```
+
+  and restart Claude Code.
 
 **2. Install the “Image Generator for Claude” browser extension** and sign in to [chatgpt.com](https://chatgpt.com) in the same browser.
 When the extension icon shows a green **ON**, you're connected.
