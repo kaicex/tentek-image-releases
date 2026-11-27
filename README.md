@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://tentek.pro/claude-image"><b>Website</b></a> ·
+  <a href="https://chromewebstore.google.com/detail/kliiimeefakginenomhjjcplbnamejel"><b>Add to Chrome</b></a> ·
   <a href="https://github.com/kaicex/tentek-image-releases/releases/latest/download/tentek-image.mcpb"><b>Download for Claude Desktop</b></a> ·
   <a href="https://www.npmjs.com/package/tentek-image">npm</a> ·
   <a href="https://t.me/kaicex">Support</a>
@@ -87,7 +88,7 @@ your ChatGPT account → PNG back to Claude
 
   and restart Claude Code.
 
-**2. Install the “Image Generator for Claude” browser extension** and sign in to [chatgpt.com](https://chatgpt.com) in the same browser.
+**2. Install the [“Image Generator for Claude” browser extension](https://chromewebstore.google.com/detail/kliiimeefakginenomhjjcplbnamejel)** from the Chrome Web Store and sign in to [chatgpt.com](https://chatgpt.com) in the same browser.
 When the extension icon shows a green **ON**, you're connected.
 
 **3. Ask Claude** — for example:
